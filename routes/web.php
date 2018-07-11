@@ -20,6 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::get('/admin', function () {
-    return view('layouts.admin');
-});
+Route::get('/admin','AdminController@index')->name('admin');
+Route::get('/starter','AdminController@starter')->name('starter');

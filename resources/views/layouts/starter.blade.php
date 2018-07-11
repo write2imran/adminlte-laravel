@@ -5,9 +5,9 @@
         <!-- Site wrapper -->
         <div class="wrapper">
 
-            @include('layouts.site.fulllayout.main-menu')
+            @include('layouts.site.starter.main-menu')
 
-            @include('layouts.site.fulllayout.header')
+            @include('layouts.site.starter.header')
 
             @include('layouts.site.fulllayout.content')
 
