@@ -10,7 +10,12 @@
 
             @include('layouts.site.content')
 
+            @include('layouts.site.right-menu')
+
             @include('layouts.site.footer')
         </div>
     </body>
 </html>
+
+
+
